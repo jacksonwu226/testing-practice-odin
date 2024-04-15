@@ -1,4 +1,4 @@
-export default const calculator = {
+const calculator = {
   add: (a,b)=>{
     return a+b;
   },
@@ -15,3 +15,5 @@ export default const calculator = {
     return a/b;
   }
 }
+
+export default calculator;
